@@ -24,6 +24,6 @@ spring.datasource.url=jdbc:oracle:thin:@127.0.0.1:1521:orcl
 
 
 spring.datasource.username=username
-spring.datasource.password=secret
+spring.datasource.password=password
 
 mvn install:install-file -Dfile=ojdbc7.jar  -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.1 -Dpackaging=jar
