@@ -26,7 +26,7 @@ public class SchedulingConfig {
 
 	@Scheduled(cron = "0/30 * * * * ?") // 每30秒执行一次
 	public void scheduler() {
-		logger.info(">>>>>>>>>>>>> scheduled  sendmail... ");
+		//logger.info(">>>>>>>>>>>>> scheduled  sendmail... ");
 
 	}
 
