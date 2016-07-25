@@ -1,6 +1,7 @@
 package com.tt.tm;
 
 import java.io.IOException;
+
 import java.util.List;
 
 import org.apache.http.HttpResponse;
@@ -21,6 +22,8 @@ public class HttpClientDemo {
 	public static void main(String[] args) {
 		// HttpGetTest();
 		//HttpPostTest();
+		
+	
 	}
 	
 	@Test
